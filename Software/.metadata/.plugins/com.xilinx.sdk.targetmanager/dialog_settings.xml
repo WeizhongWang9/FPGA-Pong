@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="Local" key="Pong-target"/>
+	<item value="E:\Projects\SchoolGit\ECEStuff\ECE4305L\PONG\Software\mcs_top_complete\hw\mcs_top_complete.mmi" key="Pong-bmmFile"/>
+	<item value="false" key="Pong-partial_bit"/>
+	<item value="_ide/bitstream/mcs_top_complete.bit" key="Pong-bitFile"/>
+	<item value="Pong" key="programfpga.sdxproject"/>
+	<item value="false" key="Pong-skip_rev_check"/>
+	<item value="E:\Projects\SchoolGit\ECEStuff\ECE4305L\PONG\Software\Pong\Debug\Pong.elf" key="Pong-microblaze_I-initElf"/>
+	<item value="Auto Detect" key="Pong-device"/>
+</section>

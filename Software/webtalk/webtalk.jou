@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# 
+# Start of session at: Fri Nov 26 00:26:09 2021
+# Process ID: 6488
+# Current directory: E:/Projects/SchoolGit/ECEStuff/ECE4305L/PONG/Software/webtalk
+# Command line: wbtcv.exe -mode batch -source vitis_webtalk.tcl
+# Log file: E:/Projects/SchoolGit/ECEStuff/ECE4305L/PONG/Software/webtalk/webtalk.log
+# Journal file: E:/Projects/SchoolGit/ECEStuff/ECE4305L/PONG/Software/webtalk\webtalk.jou
+#-----------------------------------------------------------
+source vitis_webtalk.tcl

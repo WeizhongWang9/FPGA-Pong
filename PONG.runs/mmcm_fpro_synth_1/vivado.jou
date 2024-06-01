@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Wed Nov 24 13:46:51 2021
+# Process ID: 13232
+# Current directory: E:/Projects/SchoolGit/ECEStuff/ECE4305L/PONG/PONG.runs/mmcm_fpro_synth_1
+# Command line: vivado.exe -log mmcm_fpro.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source mmcm_fpro.tcl
+# Log file: E:/Projects/SchoolGit/ECEStuff/ECE4305L/PONG/PONG.runs/mmcm_fpro_synth_1/mmcm_fpro.vds
+# Journal file: E:/Projects/SchoolGit/ECEStuff/ECE4305L/PONG/PONG.runs/mmcm_fpro_synth_1\vivado.jou
+#-----------------------------------------------------------
+source mmcm_fpro.tcl -notrace

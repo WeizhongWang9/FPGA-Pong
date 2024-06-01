@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="Pong" location="E:/Projects/SchoolGit/ECEStuff/ECE4305L/PONG/Software/Pong" platform="E:/Projects/SchoolGit/ECEStuff/ECE4305L/PONG/Software/mcs_top_complete/export/mcs_top_complete/mcs_top_complete.xpfm" platformUID="xilinx:nexys-a7-100t::0.0(custom)" systemProject="Pong_system" sysConfig="mcs_top_complete" runtime="cpp" cpu="standalone_domain" cpuInstance="microblaze_I" os="standalone" language="CPP" mssSignature="3f7435b38a63120bbf8e169c916f6ade">
+  <configuration name="Debug" id="xilinx.gnu.mb.exe.debug.257451683">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.mb.exe.release.1521901679" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="empty_application"/>
+</sdkproject:SdkProject>

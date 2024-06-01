@@ -1,0 +1,6 @@
+22:08:18 **** Build of configuration Debug for project Pong_system ****
+make all 
+Skipping SD card image generation. Reason: "The system project only has applications for microblaze processors."
+
+22:08:18 Build Finished (took 129ms)
+

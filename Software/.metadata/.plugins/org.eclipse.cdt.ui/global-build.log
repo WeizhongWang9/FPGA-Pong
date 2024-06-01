@@ -1,0 +1,31 @@
+Nothing to build in platform 'mcs_top_complete'
+
+16:21:14 **** Incremental Build of configuration Debug for project Pong ****
+make all 
+'Building file: ../src/main_video_test.cpp'
+'Invoking: MicroBlaze g++ compiler'
+mb-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main_video_test.o" -IE:/Projects/SchoolGit/ECEStuff/ECE4305L/PONG/Software/mcs_top_complete/export/mcs_top_complete/sw/mcs_top_complete/standalone_domain/bspinclude/include -mno-xl-reorder -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main_video_test.d" -MT"src/main_video_test.o" -o "src/main_video_test.o" "../src/main_video_test.cpp"
+../src/main_video_test.cpp: In function 'float getPositionScaler(SpiCore*)':
+../src/main_video_test.cpp:185:16: warning: variable 'yraw' set but not used [-Wunused-but-set-variable]
+   int8_t xraw, yraw, zraw;
+                ^~~~
+../src/main_video_test.cpp:185:22: warning: variable 'zraw' set but not used [-Wunused-but-set-variable]
+   int8_t xraw, yraw, zraw;
+                      ^~~~
+../src/main_video_test.cpp: In function 'int TitleScreen()':
+../src/main_video_test.cpp:463:1: warning: no return statement in function returning non-void [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/main_video_test.cpp'
+' '
+'Building target: Pong.elf'
+'Invoking: MicroBlaze g++ linker'
+mb-g++ -Wl,-T -Wl,../src/lscript.ld -LE:/Projects/SchoolGit/ECEStuff/ECE4305L/PONG/Software/mcs_top_complete/export/mcs_top_complete/sw/mcs_top_complete/standalone_domain/bsplib/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "Pong.elf"  ./src/adsr_core.o ./src/ball.o ./src/chu_init.o ./src/ddfs_core.o ./src/gpio_cores.o ./src/i2c_core.o ./src/main_video_test.o ./src/paddle.o ./src/playground.o ./src/ps2_core.o ./src/spi_core.o ./src/sseg_core.o ./src/timer_core.o ./src/uart_core.o ./src/vga_core.o ./src/xadc_core.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+'Finished building target: Pong.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size Pong.elf  |tee "Pong.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  81578	   1332	   3354	  86264	  150f8	Pong.elf
+'Finished building: Pong.elf.size'
+' '
